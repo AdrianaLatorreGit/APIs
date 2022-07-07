@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+h1 {
+    color: rgb(87, 87, 87);
+}
+
+h2 {
+    text-transform: capitalize;
+}
+
+li {
+    text-transform: capitalize;
+}
+
+.container {
+    display: flex;
+    max-width: 1024px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+   
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1rem 0 2rem 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+#root div {
+    flex: 1 1 200px;
+    border: 1px solid #222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 1rem;
+    margin-bottom: 0.2rem;
+}
+
+#button {
+    display: flex;
+    background-color: rgb(244, 218, 218);
+    width: 8rem;
+    height: 1.5rem;
+    border-radius: 1rem;
+    align-items: center;
+    justify-content: center;
+    color: rgb(194, 90, 90);
+    margin-top: 1rem;
+}
+
+.fire {
+    background-color: lightsalmon;
+}
+
+.water {
+    background-color: lightblue;
+}
+
+.bug {
+    background-color: rgb(165, 153, 153);
+}
+
+.normal {
+    background-color: antiquewhite;
+}
+
+.grass {
+    background-color: rgb(106, 182, 106);
+}
+
+.electric {
+    background-color: rgb(209, 209, 81);
+}
+
+.poison {
+    background-color: rgb(169, 111, 169);
+}
+
+.fairy {
+    background-color: pink;
+}
+
+.ground {
+    background-color: rgb(90, 125, 73);
+}
+
+.psychic {
+    background-color: rgb(110, 110, 205);
+}
+
+.fighting {
+    background-color: rgb(74, 182, 159);
+}
+
+.rock {
+    background-color: rgb(185, 103, 138);
+}
+
+.ghost {
+    background-color: rgb(184, 184, 184);
+}
+
+.ice {
+    background-color: #eee;
+}
+
+.dark {
+    background-color: rgba(24, 18, 18, 0.704);
+}
+
+.steel{
+    background-color:rgba(107, 44, 54, 0.848)
+}
