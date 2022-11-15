@@ -1,3 +1,3 @@
 # API
 
-consuming API
+consuming API in JavaScript
